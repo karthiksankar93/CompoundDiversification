@@ -10,6 +10,8 @@ Complete_dataset_results.csv description: \
 * Column: template - This template was extracted from the reaction \
 * Column: Template Verification (True/False) - True means that the extracted template, when applied to the reactant, generates the product of interest! \
 
+The dataset is available at: https://www.dropbox.com/sh/ggsgy4u0pt3xgy2/AAAphnqY-XhnHBDC8S03UX7Aa?dl=0 \
+
 # File details
 
 model.ckpt-10654.as_numpy.json.gz - This is the SCScore model developed by Coley et al. It is just here for convenience. \
