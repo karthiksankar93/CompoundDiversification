@@ -1,4 +1,4 @@
-# Processed Dataset
+# Final output of processing the dataset
 
 The final output from all the processing in this folder is: Complete_dataset_results.csv. Its description is as follows: \
 Complete_dataset_results.csv description: 
@@ -12,7 +12,7 @@ Complete_dataset_results.csv description:
 
 The dataset is available at: https://www.dropbox.com/sh/ggsgy4u0pt3xgy2/AAAphnqY-XhnHBDC8S03UX7Aa?dl=0 
 
-# File details
+# Other file details
 
 model.ckpt-10654.as_numpy.json.gz - This is the SCScore model developed by Coley et al. It is just here for convenience. \
 Complete_processing_v1_GitHub.py - This takes the complete_dataset.csv as input. Then it processes the reactions, extracts the templates, and checks that the extracted templates are appropriate. \
