@@ -18,7 +18,7 @@ def get_data_df (fpath = 'Complete_dataset_results.csv'):
 root_path = Path(os.path.dirname(os.path.abspath(__file__))).parent.absolute()
 
 #read in the dataset
-dataset_results = get_data_df (os.path.join(root_path, 'ProcessedDataset', 'Complete_dataset_results.csv'))
+dataset_results = get_data_df (os.path.join(root_path, '2.ProcessedDataset', 'Complete_dataset_results.csv'))
 
 # keep entries where you are able to extract and apply templates
 dataset_results_v2 = dataset_results [dataset_results['Template Verification (True/False)'] == True]
@@ -61,4 +61,4 @@ def split_data_df(data, val_frac=0.1, test_frac=0.1, shuffle=True, seed=123):
 split_data_df (dataset_results_v2)
 
 #save the dataset
-dataset_results_v2.to_pickle ('dataset_input_1000.pkl')
+dataset_results_v2.to_csv ('dataset_input.csv')

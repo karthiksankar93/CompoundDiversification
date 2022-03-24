@@ -10,7 +10,7 @@ Complete_dataset_results.csv description:
 * Column: template - This template was extracted from the reaction 
 * Column: Template Verification (True/False) - True means that the extracted template, when applied to the reactant, generates the product of interest! 
 
-The dataset is available at: https://www.dropbox.com/sh/ggsgy4u0pt3xgy2/AAAphnqY-XhnHBDC8S03UX7Aa?dl=0 
+In case you are having challenges opening this file, the dataset is also available at: https://www.dropbox.com/sh/ggsgy4u0pt3xgy2/AAAphnqY-XhnHBDC8S03UX7Aa?dl=0. The name of the file is the same ('Complete_dataset_results.csv').
 
 # Other file details
 

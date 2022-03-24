@@ -14,15 +14,15 @@ import os
 from pathlib import Path
 
 # read the original PANDAS dataframe from Jin et al.
-#def get_data_df (fpath = 'Complete_dataset.csv'):
-    #return pd.read_csv(fpath, index_col = 0)
+def get_data_df (fpath = 'Complete_dataset.csv'):
+    return pd.read_csv(fpath, index_col = 0)
 
 #get the root path!
-#root_path = Path(os.path.dirname(os.path.abspath(__file__))).parent.absolute()
+root_path = Path(os.path.dirname(os.path.abspath(__file__))).parent.absolute()
 
 #read in the dataset
-#datasub = get_data_df (os.path.join(root_path, 'RawDataset', 'Complete_dataset.csv'))
-datasub = pd.read_pickle ('complete_dataset_results_1000')
+datasub = get_data_df (os.path.join(root_path, '1.RawDataset', 'Complete_dataset.csv'))
+
 
 #parallelized reaction processing: pick a principal reactant based on SCScore, then process such that you get  to
 #principal reactant >> products
@@ -72,4 +72,4 @@ print ('Store the results')
 datasub['Template Verification (True/False)'] = verify
 
 #save the file
-datasub.to_pickle ('Complete_dataset_results.pkl')
+datasub.to_csv ('Complete_dataset_results.csv')

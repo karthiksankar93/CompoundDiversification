@@ -245,7 +245,7 @@ if __name__ == '__main__':
     root_path = Path(os.path.dirname(os.path.abspath(__file__))).parent.absolute()
     
     #read in the dataset
-    data = get_data_df (os.path.join(root_path, 'DataSplit', 'dataset_input.csv'))
+    data = get_data_df (os.path.join(root_path, '3.DataSplit', 'dataset_input.csv'))
     
     #convert the string in the dataframe into list (result of storing the dataframe as csv!)
     data['Reaction Partner (s)'] =  data.str_Reaction_Partner.apply(lambda x: literal_eval(str(x)))
