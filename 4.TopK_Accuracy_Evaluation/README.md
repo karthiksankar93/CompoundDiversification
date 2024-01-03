@@ -4,4 +4,4 @@
 * Top_k_accuracy_v7_parallel_test_GitHub.py - This is the code I used for testing. It uses the test dataset + training dataset. It uses Morgan Fingerprint of radius 2, with features. It uses tanimoto similarity metric.
 * Folder: out_test - This folder contains the results of the test set in both .csv and .pkl format. The top-k accuracy analysis, and associated plots (fast filter plot, similarity of proposed product vs. recorded product plot) are available in Test_Set_Analysis.ipynb. api_client.py and FastFilter.ipynb both are used to compute fast filter scores for the proposed reactions.
 * Folder: out_val - This folder contains the results of the validation set in both .csv and .pkl format. 
-
+* Manuscript Figures - This JupyterNotebook can be used to visualize the chemical suggestions proposed by the algorithm.
